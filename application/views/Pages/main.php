@@ -1,26 +1,26 @@
 <div>
-    <form>
+    <form action="<?php echo base_url('cadastro/cadastrar');?>" method="POST">
     <div class="form-row">
 
         <div class="form-group col-md-5">
         <label for="inputEmail4">Nome</label>
-        <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
+        <input type="text" class="form-control" placeholder="Nome" name="nome">
         </div>
 
         <div class="form-group col-md-5">
         <label for="inputPassword4">Email</label>
-        <input type="password" class="form-control" id="inputPassword4" placeholder="Senha">
+        <input type="email" class="form-control" placeholder="Email" name="email">
         </div>
     </div>
     <div class="form-group col-md-5">
         <label for="inputAddress">Telefone</label>
-        <input type="tel" class="form-control" id="inputAddress" placeholder="(00) 00000-0000">
+        <input type="tel" class="form-control" placeholder="(00) 00000-0000" name="telefone">
     </div>
 
     <div class="form-row">
         <div class="form-group col-md-5">
         <label for="inputEstado">Grupo</label>
-        <select id="inputEstado" class="form-control">
+        <select class="form-control" name="grupo">
             <option selected>Escolher...</option>
             <option>...</option>
         </select>
