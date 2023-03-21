@@ -1,5 +1,7 @@
 <div>
     <form action="<?php echo base_url('cadastro/cadastrar');?>" method="POST">
+    <!-- No action defino que este form está relacionado a função 
+    que puxa informações de um input post no controller cadastro -->
     <div class="form-row">
 
         <div class="form-group col-md-5">
@@ -22,7 +24,9 @@
         <label for="inputEstado">Grupo</label>
         <select class="form-control" name="grupo">
             <option selected>Escolher...</option>
-            <option>...</option>
+            <option value="Solteiro(a)">Solteiro(a)</option>
+            <option value="Casado(a)">Casado(a)</option>
+            <option value="Viúvo(a)">Viúvo(a)</option>
         </select>
         </div>
     </div>
