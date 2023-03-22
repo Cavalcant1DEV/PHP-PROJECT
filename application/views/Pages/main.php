@@ -31,6 +31,6 @@
         </div>
     </div>
 
-    <button type="submit" class="btn btn-primary" style="margin-top: 1em">Entrar</button>
+    <button type="submit" class="btn btn-primary" style="margin-top: 1em">Cadastrar</button>
     </form>
 </div>
